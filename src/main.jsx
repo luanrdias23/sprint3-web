@@ -10,7 +10,7 @@ import Membros from './routes/Membros/index.jsx'
 const router = createBrowserRouter([
   {
     path : "/",
-    Element: <App/>,
+    element: <App/>,
     children:[
       {
         path:"/",
